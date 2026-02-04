@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "react-scripts build",
+    "postbuild": "cp -r build ../giftwebsite/"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
